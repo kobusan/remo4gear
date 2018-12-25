@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>main</title>
+	<link rel="stylesheet" href="./main_files/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="./main_files/tau.circle.min.css">
+	<link rel="stylesheet" href="./main_files/style.css">
+<base href="."></head>
+<body id="tau-0-1545745610669" class="ui-page-container" data-tau-built="pagecontainer" data-tau-name="pagecontainer" aria-disabled="false" data-tau-bound="pagecontainer" style="">
+	<div class="ui-page ui-page-active" id="main" data-url="#main" data-title="main" data-tau-built="Page" data-tau-name="Page" aria-disabled="false" data-tau-bound="Page" style="width: 360px; height: 360px;">
+		<header class="ui-header" role="header">
+			<h2 class="ui-title" id="title">Daikin AC 001</h2>
+		</header>
+		
+		<div class="ui-content" role="main" style="height: 300px;">
+      <ul class="ui-listview" id="listTarget">
+			<li class="li-has-toggle">  <label>on/off</label>  <div class="ui-toggleswitch">    <input id="powerBox" type="checkbox" class="ui-switch-input" checked="">    <div class="ui-switch-button"></div>  </div></li><li class="li-has-action-icon">  <a class="li-action-text">モード</a>  <button class="li-action-icon-button list-icon-warm"></button></li><li class="li-has-action-icon">  <a class="li-action-text">設定温度</a>  <button class="li-action-icon-button list-span">24°</button></li><li class="li-has-action-icon">  <a class="li-action-text">風量</a>  <button class="li-action-icon-button list-span">auto</button></li><li class="li-has-action-icon">  <a class="li-action-text">風向</a>  <button class="li-action-icon-button list-icon-fan-auto"></button></li></ul>
+    </div>
+		
+	</div>
+
+
+	<!-- Processing Page -->
+	<div class="ui-page" id="smallProcessingPage" data-url="#smallProcessingPage">
+		<div class="ui-content content-padding">
+			<div class="small-processing-container">
+				<div class="ui-processing" style="visibility: hidden;"></div>
+				<div class="ui-processing-text">
+					通信中...
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./main_files/jquery-2.0.0.min.js"></script>
+	<script src="./main_files/tau.js"></script>
+	<script src="./main_files/remo-resource-api.js"></script>
+	<script src="./main_files/lowBatteryCheck.js"></script>
+	<!-- <script src="js/circle-helper.js"></script> -->
+	<script src="./main_files/conf.js"></script>
+	<script src="./main_files/default.js"></script>
+	<script src="./main_files/processing.js"></script>
+	<script src="./main_files/aircon.js"></script>
+
+
+</body></html>
