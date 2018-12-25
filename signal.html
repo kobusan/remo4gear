@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>main</title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="selectorPage" class="ui-page ui-page-active" data-enable-page-scroll="false">
+		<div id="selector" class="ui-selector">
+		</div>
+	</div>
+
+
+
+	<!-- Processing Page -->
+	<div class="ui-page" id="smallProcessingPage" >
+		<div class="ui-content content-padding">
+			<div class="small-processing-container">
+				<div class="ui-processing" style="visibility:hidden;"></div>
+				<div class="ui-processing-text">
+					通信中...
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<script src="js/jquery-2.0.0.min.js"></script>
+	<script src="lib/tau/wearable/js/tau.min.js"></script>
+	<script src="js/remo-resource-api.js"></script>
+	<script src="js/lowBatteryCheck.js"></script>
+	<script src="js/circle-helper.js"></script>
+	<script src="js/conf.js"></script>
+	<script src="js/default.js"></script>
+	<script src="js/processing.js"></script>
+	<script src="js/signal.js"></script>
+</body>
+</html>

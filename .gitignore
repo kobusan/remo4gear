@@ -1,0 +1,12 @@
+# IDE
+.settings
+.sign
+
+# package
+*.wgt
+
+# configuration
+config.xml
+
+# mac
+.DS_Store
